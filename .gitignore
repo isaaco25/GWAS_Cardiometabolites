@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# Except these
+!.gitignore
+!README.md
+!scripts/
+!scripts/**
