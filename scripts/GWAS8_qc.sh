@@ -21,6 +21,7 @@ HWE_STRICT=1e-6
 REL_CUTOFF=0.2
 
 source ~/gwas_env/bin/activate
+module load plink/1.9 || module load plink
 
 # Wipe folders to prevent "Ghost Files"
 rm -rf "$QC_DIR"

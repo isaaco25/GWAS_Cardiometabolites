@@ -20,7 +20,7 @@ OUT_DIR="$PROJECT_DIR/results/gwas_results/stepwise_analysis"
 
 mkdir -p "$OUT_DIR"
 
-module load plink/1.90
+module load plink/1.9 || module load plink
 # DEFINE YOUR ORDERED COVARIATE LIST
 # The script will add these one by one in this exact order.
 # We usually start with demographics, then SES/Lifestyle, then Genetic PCs.

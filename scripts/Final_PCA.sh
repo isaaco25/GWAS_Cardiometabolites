@@ -9,6 +9,8 @@ INPUT_DATA="$PROJECT_DIR/cleaned_data/final_qc/wakanda_final_clean"
 OUT_DIR="$PROJECT_DIR/results/population_structure"
 
 mkdir -p "$OUT_DIR"
+module load plink/1.9 || module load plink
+
 
 echo "========================================================"
 echo " GENERATING FINAL PCA (COVARIATES)"

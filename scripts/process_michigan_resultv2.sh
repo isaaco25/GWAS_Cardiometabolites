@@ -23,6 +23,7 @@ mkdir -p logs
 
 
 module purge
+# Intentionally plink2, not plink/1.9 — needed for native VCF/dosage import post-imputation
 module load plink/2.0  
 
 # Verify we have the right version in the log file

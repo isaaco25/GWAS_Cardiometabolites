@@ -18,6 +18,7 @@ MAF_T=0.01
 HWE_STRICT=1e-6
 
 source ~/gwas_env/bin/activate
+module load plink/1.9 || module load plink
 rm -rf "$QC_DIR"
 mkdir -p "$OUT_DIR" "$QC_DIR"
 
