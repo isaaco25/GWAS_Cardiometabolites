@@ -1,8 +1,8 @@
 name: gwas-cardiometabolites
 channels:
--conda-forge
-dependencies
+- conda-forge
+dependencies:
 - python
-- panda<2.2 # delim_whitespace=True (used in phenotype_qc.py, harmonisie_data.py,
-            # lambda_plotv2.py, sensitivity.py, sensitivity2.py, compositr_lamba_plot.py)
+- pandas<2.2 # delim_whitespace=True (used in phenotype_qc.py, harmonise_data.py,
+            # lambda_plotv2.py, sensitivity.py, sensitivity2.py, composite_lambda_plot.py)
             # is deprecated/removed starting pandas 2.2 - pin below that to keep it working
