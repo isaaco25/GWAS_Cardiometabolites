@@ -25,6 +25,7 @@ Identify genetic variants associated with cardiometabolic traits (BMI, blood pre
 
 ## Analytical Workflow
 
+0. **Setup** — Create the `logs/` directory (`mkdir -p logs`) before submitting any SLURM script 
 1. **Sample Harmonization** — Match genotype and phenotype data
 2. **Genotype QC (PLINK)** — Filter by missingness, MAF, HWE
 3. **Population Structure** — PCA for ancestry correction (PC1–PC10)
